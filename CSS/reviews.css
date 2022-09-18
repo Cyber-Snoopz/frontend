@@ -172,3 +172,32 @@ nav ul li.btn:hover a{
     background: white;
     transition: .4s;
 }
+
+
+@media only screen and (max-width: 768px) {
+nav ul li.btn a{
+  display: none;
+}
+nav ul li .game{
+  display: none;
+}
+.container .testimonial .logo h2 a{
+  font-size: 20px;
+}
+nav ul li a{
+  font-size: 12px;
+  margin-left: 24px;
+}
+.container{
+  width: 800px;
+  max-width:90%;
+  margin: 0 auto;
+}
+.testimonial .image {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 80%;
+  position: relative;
+}
+}
