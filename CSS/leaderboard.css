@@ -17,10 +17,6 @@ html {
 	 background-size: cover;
   }
 
-/* body{
-	background-image: none;
-} */
-
 .wrapper{
 	height: 100%;
 	max-width: 95%;
@@ -185,3 +181,14 @@ html {
 		background: white;
 		transition: .4s;
 	}
+	@media only screen and (max-width: 768px) {
+	.lboard_section {
+		width: 769px;
+		height: 405px;
+		margin: 361px auto 0;
+		background: #5f6f94;
+		padding: 25px 40px;
+		position: relative;
+		border-radius: 5px;
+	}
+}
