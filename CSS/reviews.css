@@ -38,7 +38,7 @@
   row-gap: 25px;
   height: 100%;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 .slide p {
   text-align: center;
@@ -196,8 +196,13 @@ nav ul li a{
 .testimonial .image {
   height: 100px;
   width: 100px;
-  object-fit: cover;
-  border-radius: 80%;
-  position: relative;
+}
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translateY(30px);
+  background-color: grey;
+  transition: 0.2s;
 }
 }

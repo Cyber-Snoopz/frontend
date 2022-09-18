@@ -210,17 +210,9 @@ padding-bottom: 40px;
         margin: 0 auto;
     }
     .hero header .logo h2 a{
-        display: block;
         font-size: 20px;
-        font-weight: 600;
-        text-decoration: none;
-        color: white;
-        font-family: 'Orbitron', sans-serif;
         }
         .hero header{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             padding: 50px 0 2px;
         }
         .content {
@@ -231,75 +223,32 @@ padding-bottom: 40px;
             display: inline-block;
         }
         nav ul li a{
-            text-decoration: none;
-            color: white;
             margin-left: 30px;
             font-size: 12px;
-            font-weight: 600;
-            border-bottom: 2px solid transparent;
-            transition: .6s;
         }
-        nav ul li:not(:last-child) a:hover,
-        nav ul li:not(:last-child) a:focus{
-            border-bottom: 2px solid white;
-        }
+        
         nav ul li .activa a{
-            border-bottom: 2px solid white;
             display: none;
         }
        
         nav ul li.btn a{
-            background: transparent ;
-            color: white;
-            border: 1px solid #f5dca8;
-            padding: 9px 20px;
-            border-radius:30px ;
-            line-height: 1.4px;
-            font-size: 14px;
-            font-weight: 500;
-            margin-left: 150px;
-            display: none;
-        }
-        nav ul li.btn:hover a{
-            border: 1px solid white;
-            color: black;
-            background: white;
-            transition: .4s;
             display: none;
         }
 
         .backvideo{
-            z-index: -1;
-            position: absolute;
-            right: 0;
-            bottom: 0;
             object-fit: fill;
-            min-height: 100%;
-            min-width: 100%;
          
         }
         .content .main-text a.cta{
-            border: 1px solid solid #f5dca8;
-            background:transparent;
-            color: white;
             margin-left: 28px;
             font-size: 10px;
             }
             .content .main-text a.cta i{
                 margin-right: 12px;
             }
-            .content .main-text a.cta:hover{
-              color: black;
-              background: white;
-              border: 1px solid white;
-              transition: .4s;
-            }
+            
             .content .main-text h1{
                 font-size: 40px;
-                line-height: 1;
-                color: white;
-                margin: 0px 0px 25px;
-                font-family: 'Exo 2', sans-serif;
             }
             .content .main-text h3{
                 font-size: 15px;
@@ -314,8 +263,7 @@ padding-bottom: 40px;
                 margin-bottom: 50px;
             }
             .content .main-text {
-                position: relative;
-                z-index: 2;
+                
                 margin-bottom: 41px;
             }
             .content .social i{
@@ -324,4 +272,5 @@ padding-bottom: 40px;
             nav ul li .game{
                 display: none;
             }
-}
+        
+        }

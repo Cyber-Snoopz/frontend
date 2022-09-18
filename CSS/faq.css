@@ -15,7 +15,7 @@
     min-width: 95%;
 }
 html { 
-	background: url(../Images/leaderboard_bg.jpg) no-repeat center center fixed; 
+	background: url(../Images/faq1_bg.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -58,7 +58,7 @@ body{
 .accordion .accordion-text .title{
   font-size: 35px;
   font-weight: 600;
-  color: yellow;
+  color: rgb(27, 102, 240);
   font-family: 'Fira Sans', sans-serif;
 }
 .accordion .accordion-text .faq-text{
@@ -94,11 +94,11 @@ body{
 }
 .accordion-text li:hover .question-arrow .question,
 .accordion-text li:hover .question-arrow .arrow{
-  color: #7d2ae8;
+  color: rgb(27, 102, 240);
 }
 .accordion-text li.showAnswer .question-arrow .question,
 .accordion-text li.showAnswer .question-arrow .arrow{
-  color: #7d2ae8;
+  color: rgb(27, 102, 240);
 }
 .accordion-text li .line{
   display: block;
@@ -209,4 +209,27 @@ body{
       color: black;
       background: white;
       transition: .4s;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+  .main-width{
+    width: 800px;
+    max-width:90%;
+    margin: 0 auto;
+}
+header .logo h2 a{
+  font-size: 20px;
+  }
+  nav ul li.btn a{
+    display: none;
+  }
+  nav ul li a{
+    font-size: 12px;
+  }
+  .accordion{
+    max-width: 100%;
+    padding: 45px;
+
+  }
   }
