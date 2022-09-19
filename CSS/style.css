@@ -226,18 +226,18 @@ padding-bottom: 40px;
             }
             
             .content .main-text h1{
-                font-size: 40px;
+                font-size: 15vw;
             }
             .content .main-text h3{
-                font-size: 15px;
-                margin-top: 15px;
+                font-size: 4vw;
+                margin-top: 15vw;
             }
             .content .main-text p{
                 max-width: 85%;
                 width: 400px;
                 color: white;
                 line-height: 1.8;
-                font-size: 12px;
+                font-size: 6vw;
                 margin-bottom: 75px;
             }
             .content .main-text {
