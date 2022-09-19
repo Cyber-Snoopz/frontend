@@ -101,10 +101,10 @@ color: white;
 }
 .content .main-text p{
     max-width: 100%;
-    width: 480px;
+    width: 500px;
     color: white;
     line-height: 1.8;
-    font-size: 15;
+    font-size: 18px;
     margin-bottom: 50px;
 }
 .content .main-text a{
