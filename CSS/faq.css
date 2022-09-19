@@ -213,7 +213,7 @@ body{
 
 
   @media only screen and (max-width: 768px) {
-  .main-width{
+  .header-container{
     width: 800px;
     max-width:90%;
     margin: 0 auto;
@@ -224,12 +224,27 @@ header .logo h2 a{
   nav ul li.btn a{
     display: none;
   }
+  nav ul li.activa a{
+    display: none;
+  }
   nav ul li a{
     font-size: 12px;
+    margin-left: 25px;
   }
   .accordion{
     max-width: 100%;
     padding: 45px;
 
+  }
+  .accordion{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 25px;
+    padding: 45px 90px 45px 60px;
   }
   }

@@ -90,14 +90,8 @@
 .swiper-pagination-bullet-active {
   background-color: #4070f4;
 }
-@media screen and (max-width: 768px) {
-  .slide p {
-    padding: 0 20px;
-  }
-  .nav-btn {
-    display: none;
-  }
-}
+  
+
 .backvideo{
   z-index: -1;
   position: absolute;
@@ -175,6 +169,13 @@ nav ul li.btn:hover a{
 
 
 @media only screen and (max-width: 768px) {
+  .slide p {
+    padding: 0 20px;
+    font-size: 13px;
+  }
+  .nav-btn {
+    display: none;
+  }
 nav ul li.btn a{
   display: none;
 }
@@ -197,12 +198,13 @@ nav ul li a{
   height: 100px;
   width: 100px;
 }
-.nav-btn {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  transform: translateY(30px);
-  background-color: grey;
-  transition: 0.2s;
+.details .name {
+  font-size: 14px;
+  
+}
+.details .job {
+  font-size: 12px;
+  font-weight: 400;
+  color: whitesmoke;
 }
 }
