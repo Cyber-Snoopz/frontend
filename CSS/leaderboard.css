@@ -181,14 +181,32 @@ html {
 		background: white;
 		transition: .4s;
 	}
+
 	@media only screen and (max-width: 768px) {
-	.lboard_section {
-		width: 769px;
-		height: 405px;
-		margin: 361px auto 0;
-		background: #5f6f94;
-		padding: 25px 40px;
-		position: relative;
-		border-radius: 5px;
-	}
+	
+		.wrapper{
+			width: 800px;
+			max-width:90%;
+			margin: 0 auto;
+		}
+		.wrapper header .logo h2 a{
+			font-size: 20px;
+			}
+			.wrapper header{
+				padding: 50px 0 2px;
+			}
+			nav ul li a{
+				margin-left: 30px;
+				font-size: 12px;
+			}
+			nav ul li .activa a{
+				display: none;
+			}
+		   
+			nav ul li.btn a{
+				display: none;
+			}
+			nav ul li .game{
+                display: none;
+            }
 }

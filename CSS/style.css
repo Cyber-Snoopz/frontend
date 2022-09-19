@@ -200,10 +200,6 @@ padding-bottom: 40px;
         .content {
             padding-top: 81px;
         }
-        nav ul li{
-            list-style: none;
-            display: inline-block;
-        }
         nav ul li a{
             margin-left: 30px;
             font-size: 12px;
